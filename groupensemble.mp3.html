@@ -1,0 +1,11 @@
+<h1>PRIVATE FILE</h1>
+<br>
+<input type="password" placeholder="ACCESS CODE" id="pass">
+<button id="g">Download</button>
+<script>
+if (btoa(document.getElementById("pass").value) == "Z2FoYy1oaGxz") {
+  var a = document.createElement("a")
+  a.setAttribute("download", true)
+  a.setAttribute("href", "file/Z2FoYy1oaGxz/groupensemble.mp3")
+  a.click()
+}

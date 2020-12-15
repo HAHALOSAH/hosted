@@ -1,0 +1,14 @@
+<h1>PRIVATE FILE</h1>
+<br>
+<input type="password" placeholder="ACCESS CODE" id="pass">
+<button id="g" onclick="check()">Download</button>
+<script>
+  function check(){
+if (btoa(document.getElementById("pass").value) == "YXNkZmFzZGY=") {
+  var a = document.createElement("a")
+  a.setAttribute("download", "")
+  a.setAttribute("href", "file/YXNkZmFzZGY=/hanukkahvideo.mkv")
+  a.click()
+}
+  }
+</script>
